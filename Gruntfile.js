@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     web_server: {
       options: {
         cors: true,
-        port: 9000,
+        port: 9001,
         nevercache: true,
         logRequests: true
       },

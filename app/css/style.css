@@ -1,0 +1,15 @@
+.list-group {
+	max-width: 800px;
+}
+
+.img-wrap {
+	text-align: center;
+}
+
+.ng-invalid.ng-dirty{
+  border-color: red;
+}
+
+.ng-valid.ng-dirty {
+  border-color: green;
+}

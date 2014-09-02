@@ -5,8 +5,9 @@ Experiements Backoffice
 ### Prerequisites
 ---
 - git
-- bower
 - npm
+- bower
+- Grunt
 
 ### Scaffolding
 ---
@@ -20,7 +21,7 @@ To set up the project and dependencies
 	
 		npm install
 
-3. Start the local web server and navigate to http://localhost:8000/index.html, web server configuration specified in *Grunt.js*.
+3. Start the local web server and navigate to http://localhost:9000/index.html, web server configuration specified in *Grunt.js*.
 	
 		grunt web_server
 

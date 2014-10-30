@@ -20,7 +20,7 @@
     <cite class="clearfix">—{{reviewCtrl.review.author}}</cite>
   </blockquote>
 
-  <!--  Review Form -->
+  <!--  2 way binding with ng-model -->
   <h4>Submit a Review</h4>
   <fieldset class="form-group">
     <select ng-model="reviewCtrl.review.stars" class="form-control" ng-options="stars for stars in [5,4,3,2,1]" title="Stars">
